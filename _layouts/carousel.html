@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<article class="post">
+  <h1>{{ page.title }}</h1>
+
+  <div class="entry">
+    {{ content }}
+
+	<div id="sliderFrame">
+		<div id="slider">
+			{% for image in page.images %}
+			    <img src="{{ image.source }}" title="{{ image.title }}" />
+			{% endfor %}
+		</div>
+		<!--Custom navigation buttons on both sides-->
+		<div class="group1-Wrapper">
+		    <a onclick="imageSlider.previous()" class="group1-Prev"></a>
+		    <a onclick="imageSlider.next()" class="group1-Next"></a>
+		</div>
+		<!--nav bar-->
+		<div style="text-align:center;padding:20px;z-index:20;">
+		    <a onclick="imageSlider.previous()" class="group2-Prev"></a>
+		    <a id='auto' onclick="switchAutoAdvance()"></a>
+		    <a onclick="imageSlider.next()" class="group2-Next"></a>
+		</div>
+	</div>
+
+  </div>
+
+  <div class="date">
+    Written on {{ page.date | date: "%B %e, %Y" }}
+  </div>
+
+  {% include disqus.html disqus_identifier=page.disqus_identifier %}
+</article>

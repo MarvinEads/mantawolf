@@ -4,12 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+This page is supposed to be some information about the guy whose ramblings you are reading.  Can't say I have honestly ever given thought about describing myself
+beyond what you see in the blog header.
 
-### More Information
+### Basic History
 
-A place to include any other types of information that you'd like to include about yourself.
+Graduated high school in Irving TX back in 1993, grew up most of my life there. Went into the Army between 2 wars so served in peace time really. Spent 2 months at Fort Sill in OK, 4 more months at Fort Gordon GA, and the rest of the 3 year term at Fort Hood TX. So much for seeing the world in the military.
 
-### Contact me
+From there, it was marriage and kids. Went to work eventually at GTE, which would later become Verizon. Then finally Clearview, which would become API Healthcare, then swallowed up by GE. Then again sold off to HealthcareSource That gets us to today. And it should be said, anything said on this site is my opinion and has no bearing on my employer.
 
-[email@domain.com](mailto:email@domain.com)
+### Interests
+
+<iframe src='//cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=177xZ2PqXRFzsJyQnXOtdmeWxN5ROcuo7FcuCMcRPm2Q&font=Default&lang=en&height=300' width='100%' height='300' frameborder='0'></iframe>
+
+### [Contact me]({{ site.baseurl }}/contact)
